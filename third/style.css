@@ -1,0 +1,79 @@
+html, body {
+  max-width: 900px;
+}
+
+.parent {
+  background: white;
+}
+
+header { 
+  width: 100%;
+  height: 100px;
+  background: black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.twocolumns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.columnOne {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 28px;
+}
+
+.typeSomething {
+  margin: 0 auto;
+}
+
+.fourParagraphs {
+}
+
+.columnTwo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 28px;
+}
+
+.grayBox {
+  height: 200px;
+  width: 100%;
+  background: gray;
+}
+
+.twoParagraphs {
+
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+
+.apple {
+  color: white;
+  background: black;
+  margin-left: 40px;
+  font-size: 21px;
+}
+
+.google {
+  color: white;
+  background: black;
+  margin-left: 40px;
+  font-size: 21px;
+}
